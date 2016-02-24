@@ -13,7 +13,7 @@ module.exports = function(grunt) {
                 access: "public-read"
             },
             dist: {
-                cwd: "dist/",
+                cwd: "dist",
                 src: "**"
             }
         },
