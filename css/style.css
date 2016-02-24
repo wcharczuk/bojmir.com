@@ -1,0 +1,171 @@
+*
+{
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+a 
+{
+    text-decoration:none;
+    color: #3A3A3A;
+}
+
+a:hover
+{
+    color:Red;
+    text-decoration:underline;
+}
+
+ul
+{
+    list-style:none;
+}
+
+body 
+{
+    margin:0;
+    padding:0;
+
+    padding-top:20px;
+
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    
+    font-size:16px;
+    font-weight:300;
+
+    background-image: url("./assets/business.jpg");
+}
+
+h1 
+{
+    font-size:30px;
+    color: #000;
+}
+h2
+{
+    font-size:20px;    
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Rambla', sans-serif;
+    color: #3A3A3A;
+    font-weight:600;
+    text-decoration:none;
+    
+    margin-top: 25px;
+    margin-bottom:20px;
+}
+
+p
+{
+    color: #4D4D4D;
+ 
+    line-height:23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img 
+{
+    border: 1px solid #000;
+}
+
+header
+{
+    font-size:20px;
+}
+
+header #me
+{
+    width:50px;
+    vertical-align:middle;
+    margin-right:20px;
+}
+
+header a:hover
+{
+    text-decoration:none;
+}
+
+footer
+{
+    margin-top:100px;
+    text-align:center;
+    clear:both;
+}
+
+/* default */
+#site
+{
+    min-width:960px;
+    max-width:960px;
+    width:960px;
+
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:50px;
+}
+
+/* index */
+#posts
+{
+    margin-top:25px;
+}
+
+/* post */
+
+#post
+{
+    margin-bottom: 40px;
+}
+
+#post ul
+{
+    list-style:circle;
+    margin-left:20px;
+    margin-bottom:30px;
+}
+
+#post-header
+{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+#post-header h1
+{
+    margin:0;
+}
+
+#tags {}
+
+#nav .previous
+{
+    float:left;
+}
+#nav .next
+{
+    float:right;
+    clear:right;
+}
+
+/* utility classes */
+.pull-right
+{
+    float:right;
+}
+
+.tag, code
+{
+    font-size:13px;
+}
+
+.center {
+    text-align: center;
+}
+
+.hero-img {
+    width: 60%;
+}
