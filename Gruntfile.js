@@ -10,7 +10,8 @@ module.exports = function(grunt) {
                 accessKeyId: '<%= aws.AWSAccessKeyId %>',
                 secretAccessKey: '<%= aws.AWSSecretKey %>',
                 bucket: '<%= aws.AWS_S3_Bucket %>',
-                access: "public-read"
+                access: "public-read",
+				cache: false
             },
             dist: {
                 cwd: "dist",
